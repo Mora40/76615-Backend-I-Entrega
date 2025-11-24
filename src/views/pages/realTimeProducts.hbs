@@ -1,0 +1,27 @@
+{{> header }}
+<div class="productsContainer">
+    <h2>Lista de productos</h2>
+    <div class="products-list" id="products-list">
+        {{#each products}}
+        <div class="product-item width-25">
+            <div class="product-border">
+                <div class="product-img-center">
+                    <a href="#">
+                    <img class="product-img" src="/public/img/uploads/{{thumbnail}}">
+                    </a>
+                </div>
+                <div>
+                    <p class="product-name">
+                        <a>{{title}}</a>
+                    </p>
+                    <p class="product-price">
+                        <span class="product-original-price">{{price}} $</span>
+                        <span class="cantidad-carrito" id="cantidad-{{id}}">Stock: {{stock}}</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+{{> footer }}

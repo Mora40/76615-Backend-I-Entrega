@@ -4,7 +4,65 @@
     "title": "Producto postman",
     "description": "descripcion",
     "price": 100,
-    "thumbnail": "imagen",
+    "thumbnail": [
+      "img-c68c5145-a533-453b-a552-fe73c182ff13-booster_rivales_destinados.jpg"
+    ],
+    "stock": 1000
+  },
+  {
+    "code": "3f5ff0d2-9799-4545-902c-92439727179e",
+    "title": "Producto postman 2",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "08ec927c-6ce7-4cba-9176-0da8183527a5",
+    "title": "Producto postman 2 atualizado",
+    "description": "descripcion actualizado",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "a2618767-54d3-4445-9f87-d4bca01c060c",
+    "title": "Producto postman 4",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "5391580a-3438-4294-aa1e-1f759aa21776",
+    "title": "Producto postman 5",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "b6aec38f-d5ab-42b5-88d3-f1644c600bbb",
+    "title": "Producto postman 6",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "f9d4f0cc-a8bd-4c8c-9c31-c155774e48be",
+    "title": "Producto postman 7",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
+    "stock": 1000
+  },
+  {
+    "code": "fef18527-4569-4a34-b74d-e48e81cd9ff3",
+    "title": "Producto postman 8",
+    "description": "descripcion",
+    "price": 100,
+    "thumbnail": [],
     "stock": 1000
   }
 ]

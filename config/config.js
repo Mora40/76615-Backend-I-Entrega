@@ -11,5 +11,7 @@ const productsDataPath = fileDataDinamic("products.json");
 const carritoDataPath = fileDataDinamic("carts.json");
 // console.log("Ruta dinámica:", carritoDataPath);
 
+const publicPath = path.join(__dirname, "../public");
+const viewsPath = path.join(__dirname, "../src/views");
 
-module.exports = { productsDataPath, carritoDataPath };
+module.exports = { productsDataPath, carritoDataPath, publicPath, viewsPath };

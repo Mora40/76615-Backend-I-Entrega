@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/pokemon-hollow");
+.tienda-titulo {
+  /* position: absolute; */
+  top: 100px; /* Example positioning */
+  left: 0; /* Ensures it starts from the left for width calculation */
+  right: 0; /* Ensures it extends to the right for width calculation */
+  width: 100%; /* Or a specific width like 300px */
+  text-align: center;
+  font-weight: bolder;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 3px;
+  color: black;
+  font-family: "Pokemon Hollow", sans-serif;
+  font-size: 150px;
+  line-height: 84px;
+  margin-top: 60px;
+}
+
+.tienda_img {
+  width: 100%;
+  height: 337px;
+  object-fit: none;
+}
+
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+  /* top: 500px; */
+}
+
+.width-25 {
+  width: 25%;
+  float: left;
+}
+
+.product-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.product-img {
+  width: auto;
+  height: 270px;
+}
+
+.product-img-cart {
+  width: auto;
+  height: 150px;
+}
+
+.product-img-center {
+  text-align: center;
+}
+
+.product-border {
+  border: 1px solid #d1d1d1;
+  padding: 20px;
+}
+
+.product-name a {
+  color: #232b33;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.product-original-price {
+  align-items: center;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000000;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.cantidad-carrito {
+  float: right;
+  align-items: center;
+  color: #000000;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product-price {
+  margin-top: 15px;
+}
+
+
